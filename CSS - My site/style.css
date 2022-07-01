@@ -1,6 +1,20 @@
-
-div {
+body{
+    margin: 0px;
+}
+.top {
     background-color: #F0EBE3;
+
+}
+
+.middle {
+    background-color: #E4DCCF;
+}
+
+.bottom {
+    background-color: #7D9D9C;
+}
+
+h1{
     margin-top: 0px;
     margin-left: 0px;
 }
