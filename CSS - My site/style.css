@@ -3,15 +3,27 @@ body{
 }
 .top {
     background-color: #F0EBE3;
-
+    width: 200;
+    height: 200;
 }
 
 .middle {
     background-color: #E4DCCF;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
 }
 
 .bottom {
     background-color: #7D9D9C;
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+}
+
+.mountain{
+    position: absolute;
+    left: 300px;
 }
 
 h1{
