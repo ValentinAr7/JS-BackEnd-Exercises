@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     text-align: center;
-    font-family: serif;
+    font-family: 'Merriweather', serif;
 
 }
 .top {
@@ -39,4 +39,5 @@ body{
 h1{
     width: 10%;
     margin: 0 auto 0 auto;
+    font-family: "Sacramento", cursive;
 }
