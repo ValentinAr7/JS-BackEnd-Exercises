@@ -36,14 +36,19 @@ body{
 h1{
 
     font-family: "Sacramento", cursive;
+    margin-top: 0;
+    font-size: 562%;
+    color: #5f430f;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #5f430f;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    color: #5f430f;
 }
 
 
