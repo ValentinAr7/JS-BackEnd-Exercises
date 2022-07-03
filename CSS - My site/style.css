@@ -52,8 +52,14 @@ h2{
     color: #5f430f;
 }
 
+.skill-row{
+    margin-top: 100px auto 100px auto;
+
+}
+
 .user{
-    width: 50%;
+    width: 150px;
+    height: 150px;
 }
 
 
