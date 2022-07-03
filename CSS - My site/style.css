@@ -53,14 +53,19 @@ h2{
 }
 
 .skill-row{
+    width: 50%;
     margin-top: 100px auto 100px auto;
     text-align: left;
+    line-height: 2;
 
 }
 
 .user{
     width: 150px;
     height: 150px;
+    align-items: center;
+    float: left;
+    margin-right: 30px;
 }
 
 
