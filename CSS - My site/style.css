@@ -54,7 +54,7 @@ h2{
 
 .skill-row{
     width: 50%;
-    margin-top: 100px auto 100px auto;
+    margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 
@@ -68,7 +68,18 @@ h2{
     margin-right: 30px;
 }
 
+.skill-row1 {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
 
+.laptop{
+    width: 150px;
+    height: 150px;
+}
 
 
 
