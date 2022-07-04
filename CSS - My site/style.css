@@ -12,12 +12,12 @@ body{
 
 .middle-container {
     background-color: #c1b5a1;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 
 }
 
 .bottom-container {
-    background-color: #7D9D9C;
+    background-color: #6b614f;
     padding-top: 20px;
 }
 
@@ -88,7 +88,9 @@ h2{
     margin-top: 10px;
 }
 
-
+.Get{
+    color: #c1b5a1;
+}
 
 
 
