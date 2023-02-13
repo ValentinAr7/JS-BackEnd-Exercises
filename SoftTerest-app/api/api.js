@@ -1,6 +1,7 @@
 const host = 'http://localhost:3030';
 
 async function requester(method, url, data) {      //create a requester
+    const user = sessionStorage.getItem('user')
     const option = {                                //check the method if GET fetch
         method,                                     // if POST add header and body
         headers: {}
@@ -9,6 +10,11 @@ async function requester(method, url, data) {      //create a requester
     if (data) {
         option.headers['Content-Type' = 'Application/json'];    //add header
         option.body = JSON.stringify(data);                     //add body
+    }
+
+    if(user){
+        const user = user.accessToken;
+        option.headers['X-Authorization'] = token
     }
 
 
