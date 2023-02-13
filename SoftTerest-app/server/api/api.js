@@ -11,4 +11,6 @@
         option.body = JSON.stringify(body);
     }
 
+    const response = await fetch (host + url, option)
+
  }
