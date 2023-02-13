@@ -1,8 +1,8 @@
 const host = 'http://localhost:3030';
 
 async function requester(method, url, data) {      //create a requester
-    const user = sessionStorage.getItem('user')
-    const option = {                                //check the method if GET fetch
+    const user = JSON.parse(sessionStorage.getItem('user'))
+;    const option = {                                //check the method if GET fetch
         method,                                     // if POST add header and body
         headers: {}
     }
@@ -31,7 +31,8 @@ async function requester(method, url, data) {      //create a requester
             return response.json()
         }
     } catch (error) {
-        alert(error)
+        alert(error.message)
+        throw error
     }
     const data = await response.json()
 
