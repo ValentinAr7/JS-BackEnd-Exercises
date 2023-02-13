@@ -8,9 +8,23 @@
 
     if(data){
         option.headers['Content-Type' = 'Application/json'];    //add header
-        option.body = JSON.stringify(body);                     //add body
+        option.body = JSON.stringify(data);                     //add body
     }
 
     const response = await fetch (host + url, option)           //fetch data from the server
+    const data = await response.json()
 
+    return data
+ }
+
+const get = requester.bind(null, 'get');
+const post = requester.bind(null, 'post');
+const put = requester.bind(null, 'put');
+const del = requester.bind(null, 'delete');
+
+ export {
+    get,
+    post,
+    put, 
+    del as delete
  }
