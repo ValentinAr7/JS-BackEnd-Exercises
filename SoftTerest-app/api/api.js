@@ -17,8 +17,8 @@
     return data
  }
 
-const get = requester.bind(null, 'get');
-const post = requester.bind(null, 'post');
+const get = requester.bind(null, 'get');            //send the method to the requester
+const post = requester.bind(null, 'post');          //content === null
 const put = requester.bind(null, 'put');
 const del = requester.bind(null, 'delete');
 
