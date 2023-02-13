@@ -20,4 +20,5 @@ export async function register(email, password){
 
 export async function logout(){
     api.get(endPoint.logout)
-}
+        sessionStorage.removeItem('user')           //remove user
+    }
